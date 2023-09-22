@@ -9,7 +9,7 @@ def use_factory(fac: str):
     Example
     =======
 
-    @factory_only("my_factory")
+    @use_factory("my_factory")
     @dataclass
     class MyClass:
         arg1: int
