@@ -3,7 +3,7 @@ from __future__ import annotations
 import inspect
 
 
-def factory_only(fac: str):
+def use_factory(fac: str):
     """Dataclass decorator to make factory-usage mandatory.
 
     Example
